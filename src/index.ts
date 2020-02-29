@@ -1,6 +1,6 @@
 import express, { Request, Response } from 'express';
 
-import Logger from './Logger';
+import Logger from 'Logger';
 
 const app: express.Application = express();
 const port: string = process.env.PORT || '3000';

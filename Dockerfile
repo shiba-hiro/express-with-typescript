@@ -3,6 +3,7 @@ WORKDIR /usr/src/app
 COPY package.json ./
 COPY yarn.lock ./
 COPY tsconfig*.json ./
+COPY webpack.config.js ./
 COPY src src
 RUN yarn install && yarn build
 

@@ -18,6 +18,10 @@ module.exports = {
     "__DEV__": false,
   },
   "parser": "@typescript-eslint/parser",
+  "ignorePatterns": [
+    "dist/",
+    "node_modules/",
+  ],
   "rules": {
     "import/extensions": [0],
     "camelcase": [0],
@@ -60,6 +64,10 @@ module.exports = {
       "node": {
         "extensions": [
           ".ts",
+        ],
+        "moduleDirectory": [
+          "node_modules",
+          "src",
         ],
       },
     },
