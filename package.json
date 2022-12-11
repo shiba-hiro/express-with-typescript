@@ -15,7 +15,7 @@
     "jest": "echo 'TODO: write jest specs'"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "log4js": "^6.3.0",
     "pm2": "^4.4.0",
     "uuid": "^8.1.0"
